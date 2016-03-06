@@ -35,8 +35,7 @@ UIView.animateWithDuration(1, delay: 0, usingSpringWithDamping: 50, initialSprin
 
     }) { _ in
         
-        
-
+    
         UIView.animateWithDuration(2, animations: {
             let scaleTransform = CGAffineTransformMakeScale(1, 1)
             circle.transform = scaleTransform
@@ -68,6 +67,5 @@ UIView.animateWithDuration(1, delay: 0, usingSpringWithDamping: 50, initialSprin
             }
 
         }
-        
-       
 }
+
